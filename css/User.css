@@ -1,0 +1,21 @@
+.user-container{
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+
+}
+.user-container .user-avatar{
+    height: 300px;
+    background-image:  url('http://st.thichtruyentranh.com/images/icon/0029/gosu1448202645.jpg');
+    background-size: 100% 100%;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+.user-container .user-avatar >*{
+    padding:  5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #4a8af4;  
+    display: inline-block;
+}
